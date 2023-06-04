@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+
+.bg-1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background: url("images/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.form {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.37);
+    flex-direction: column;
+    gap: 30px;
+    backdrop-filter: blur(10px);
+}
+
+.form img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    border: 4px solid rgb(0, 208, 255);
+}
+
+.form input {
+    position: relative;
+    top: 20px;
+    justify-content: center;
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    border-bottom: 2px solid rgb(0, 208, 255);
+    text-align: center;
+}
+
+.form input::placeholder {
+    justify-content: center;
+    display: flex;
+    font-family: serif;
+    text-align: center;
+    color: white;
+}
+
+.form .header {
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 5px 5px rgb(0, 208, 255);
+    position: absolute;
+}
+
+.form button {
+    position: relative;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    height: 40px;
+    background-color: rgb(0, 208, 255);
+    color: white;
+    font-size: 18px;
+    top: 10%;
+    font-weight: 100;
+}
+
+.form a {
+    top: 50px;
+    position: relative;
+    color: rgba(201, 199, 199, 0.486);
+}
+
+.form-2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: 0;
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(10px);
+}
+
+.form-2 p {
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.938);
+    color: rgb(0, 208, 255);
+    font-weight: 600;
+}
